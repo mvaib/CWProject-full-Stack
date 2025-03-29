@@ -1,0 +1,18 @@
+/* Footer Container */
+footer {
+    /* border: 2px solid blue; */
+    background-color: #f8f8f8; /* Light background color */
+    padding: 30px 20px; /* Padding for top/bottom and left/right */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Font style */
+    text-align: center; /* Centered text alignment */
+}
+/* Footer Links */
+
+
+/* Disclaimer and Copyright */
+footer .disclaimer {
+    font-size: 12px; /* Smaller font for disclaimer */
+    margin-top: 20px; /* Space above disclaimer */
+    color: #666; /* Light grey color */
+}

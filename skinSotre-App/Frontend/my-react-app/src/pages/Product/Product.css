@@ -1,0 +1,12 @@
+.product-container{
+    position: relative;
+    top: 153px;
+    /* border: 2px solid blue; */
+    transition: .5s;
+}
+@media all and (max-width : 751px){
+    .product-container{
+        top: 125px;
+        transition: .5s;
+    }
+}

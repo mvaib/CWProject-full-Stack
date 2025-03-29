@@ -1,0 +1,35 @@
+.FeamlBeauty.slick-slider{
+    /* border: 2px solid blue; */
+    width: 90rem;
+    
+
+}
+.FeamlBeauty.slick-slider .slick-next {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.FeamlBeauty.slick-slider .slick-next::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+.FeamlBeauty.slick-slider .slick-prev {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.FeamlBeauty.slick-slider .slick-prev::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+b{
+    text-align: center;
+    font-size: 23px;
+}
+@media all and (max-width : 1436px){
+    .FeamlBeauty.slick-slider{
+        /* border: 2px solid blue; */
+        width: 100%;
+    
+    }
+}

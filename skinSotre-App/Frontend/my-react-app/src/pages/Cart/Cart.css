@@ -1,0 +1,112 @@
+.cart{
+    position: relative;
+    top: 152px;
+    /* border: 2px solid red; */
+    width: max(80%, 1000px);
+    margin: auto;
+    transition: .5s;
+}
+.cart-item-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(.7vw,12px);
+}
+.cart-item-data{
+    margin: 10px 0px;
+    color: black;
+}
+.cart-item-data img{
+    width: max(50%, 50px);
+}
+.cart-item-quantity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(179, 179, 179);
+}
+.cart-bottom{
+    margin-top: 80px;
+    width: max(40%, 800px);
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-total-detail{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.cart-total hr{
+    margin: 10px 0px;
+}
+.cart-total p{
+    font-size: max(.8vw, 16px);
+}
+.cart-total button{
+    width: 100%;
+    padding: 20px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 20px;
+    font-size: max(.5vw, 16px);
+    cursor: pointer;
+}
+@media all and (max-width : 996px){
+    .cart{
+        width: 100%;
+    }
+    .cart-total button{
+        padding: 15px 0px;
+    }
+}
+@media all and (max-width : 799px){
+    .cart-bottom{
+        width: 100%;
+    }
+}
+@media all and (max-width : 751px){
+    .cart{
+        top: 125px;
+        transition: .5s;
+    }
+}
+@media all and (max-width: 537px) {
+    .cart{
+        top: 130px;
+        transition: .5s;
+    }
+    .cart-item-title {
+        grid-template-columns: 1fr 2fr; /* Stack fewer columns for smaller screens */
+        font-size: max(.9vw, 10px); /* Adjust font size */
+    }
+
+    .cart-item-data {
+        text-align: center; /* Center align text for better readability */
+    }
+
+    .cart-total p {
+        font-size: max(1vw, 14px); /* Adjust total font size for smaller screens */
+    }
+    
+    .cart-item-quantity {
+        flex-direction: column; /* Stack quantity controls vertically */
+    }
+
+    .cart-total button {
+        padding: 10px 0px; /* Decrease button padding */
+        font-size: max(.7vw, 14px); /* Adjust button text size */
+    }
+}

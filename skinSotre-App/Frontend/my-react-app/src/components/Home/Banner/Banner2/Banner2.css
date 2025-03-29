@@ -1,0 +1,55 @@
+.Banner2{
+    /* border: 2px solid blue; */
+    text-align: center;
+    margin-top: 20px;
+    width: 115rem;
+    margin: auto;
+}
+.Banner2 img{
+    height: 100%;
+    width: 100%;
+}
+@media all and (max-width : 1841px){
+    .Banner2{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+@media all and (max-width : 444px){
+    .Banner2{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+@media all and (max-width : 594px){
+    .Banner2{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+@media all and (max-width : 434px){
+    .Banner2{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+@media all and (max-width : 374px){
+    .Banner2{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media all and (max-width : 337px){
+    .Banner2{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}

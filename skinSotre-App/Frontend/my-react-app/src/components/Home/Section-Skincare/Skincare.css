@@ -1,0 +1,80 @@
+.skincare-container{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 80rem;
+    margin: auto;
+
+}
+.skincare-container b{
+    font-size: 20px;
+}
+.skincare-container b,.skincare-container p{
+    margin-top: 20px;
+}
+.skincare-card-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 20px;
+    height: 500px;
+    padding-bottom: 40px;;
+}
+.skincare-card-container>div:nth-child(1){
+    /* border: 2px solid blue; */
+    width:500px;
+    height: 500px;
+    position: relative;
+    left: 0px;
+}
+.skincare-card-container>div:nth-child(1)>img{
+    width: 100%;
+    height: 100%;
+}
+.skincare-slider{
+    /* border: 2px solid blue; */
+    width: 50%;
+    position: relative;
+    bottom: 440px;
+    left: 250px;
+}
+.skincare-slider.slick-slider .slick-next {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.skincare-slider.slick-slider .slick-next::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+.skincare-slider.slick-slider .slick-prev {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.skincare-slider.slick-slider .slick-prev::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+@media all and (max-width : 1269px){
+    .skincare-container{
+        width: 100%;
+    }
+}
+@media all and (max-width : 1060px){
+    .skincare-card-container{
+        height: auto;
+
+    }
+    .skincare-slider{
+        /* border: 2px solid blue; */
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+}
+@media all and (max-width : 507px){
+    .skincare-card-container>div:nth-child(1){
+        width: 100%;
+        height: 100%;
+    }
+}

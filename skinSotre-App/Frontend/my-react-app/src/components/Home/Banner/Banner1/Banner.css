@@ -1,0 +1,28 @@
+.Banner{
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: 200px;
+    margin-top: 20px;
+    width: 115rem;
+    margin: auto;
+
+}
+.Banner .banner-img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+@media all and (max-width : 1841px){
+    .Banner{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+@media all and (max-width : 444px){
+    .Banner{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}

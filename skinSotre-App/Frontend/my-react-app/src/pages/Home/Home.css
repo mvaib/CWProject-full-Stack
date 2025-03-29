@@ -1,0 +1,15 @@
+.home-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 146px;
+    transition: .5s;
+}
+@media all and (max-width : 751px){
+    .home-container{
+        top: 125px;
+        transition: .5s;
+    }
+}

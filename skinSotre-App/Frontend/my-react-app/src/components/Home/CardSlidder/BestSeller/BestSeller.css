@@ -1,0 +1,30 @@
+.bestSeller.slick-slider{
+    /* border: 2px solid blue; */
+    width: 90rem;
+
+}
+.bestSeller.slick-slider .slick-next {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.bestSeller.slick-slider .slick-next::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+.bestSeller.slick-slider .slick-prev {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.bestSeller.slick-slider .slick-prev::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+@media all and (max-width : 1436px){
+    .bestSeller.slick-slider{
+        /* border: 2px solid blue; */
+        width: 100%;
+    
+    }
+}

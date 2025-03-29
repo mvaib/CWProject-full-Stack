@@ -1,0 +1,37 @@
+.freegift-container{
+    margin-top: 10px;
+    text-align: center;
+}
+.Freegift.slick-slider{
+    /* border: 2px solid blue; */
+    width: 90rem;
+
+}
+.Freegift.slick-slider .slick-next {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.Freegift.slick-slider .slick-next::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+.Freegift.slick-slider .slick-prev {
+    /* border: 2px solid blue; */
+    color: black;
+    background: transparent; /* Ensures no background color is overriding */
+}
+
+.Freegift.slick-slider .slick-prev::before {
+    color: black; /* If the arrow is generated with a pseudo-element */
+}
+b{
+    font-size: 23px;
+}
+@media all and (max-width : 1436px){
+    .Freegift.slick-slider{
+        /* border: 2px solid blue; */
+        width: 100%;
+    
+    }
+}

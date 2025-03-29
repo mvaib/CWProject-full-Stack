@@ -1,0 +1,9 @@
+.button-container{
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    transition: .5s;
+}
