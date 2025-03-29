@@ -11,9 +11,14 @@ const PORT = 8080
 
 // middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin : "https://skin-storeclone.netlify.app",
+    methods : ["GET","POST","PUT","DELETE"],
+    credentials : true
+}))
 
 // api endpoint
+
 app.use("/api/product", productRouter)
 app.use("/images",express.static("uploads"))
 app.use("/api/user", userRouter)
