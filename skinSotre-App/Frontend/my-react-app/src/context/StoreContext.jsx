@@ -4,7 +4,7 @@ export const StoreContext = createContext()
 
 const StoreContextProvider = (props) => {
     const [cartItem,setCartItem] = useState({})
-    const url = "http://localhost:8080"
+    const url = "https://skinstore-backend-fp0n.onrender.com"
     const [product_list,setProduct_list] = useState([])
     const [currentState,setCurrentState] = useState("Sign Up")
     const [token,setToken] = useState(() => {
