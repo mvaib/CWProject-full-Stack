@@ -1,0 +1,36 @@
+.dropDown{
+    border: 1px solid rgb(198, 116, 236);
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+
+}
+.dropDownContainer{
+    /* border: 2px solid green; */
+    max-width: 160rem;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropDownContainer ul{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.dropDownContainer ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.dropDownContainer ul li span{
+    color: rgb(103, 54, 208);
+    cursor: pointer;
+}

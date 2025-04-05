@@ -1,0 +1,63 @@
+*{
+    list-style: none;
+}
+.Header{
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: rgb(164, 133, 249);
+}
+.Header nav{
+    /* border: 2px solid blue; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    max-width: 160rem;
+    margin: auto;
+    color: rgb(103, 54, 208);
+
+}
+.menu li:hover, .logo:hover{
+    color: rgb(72, 13, 199);
+    cursor: pointer;
+
+}
+.tools{
+    position: absolute;
+    left: 5rem;
+    cursor: pointer;
+    /* border: 2px solid blue; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.Header .menu{
+    position: absolute;
+    left: 10rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.Header .auth{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Header .auth button{
+    padding: 7px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(143, 54, 212);
+    color: aliceblue;
+    cursor: pointer;
+}
+.Header .auth button:hover{
+    background-color: rgb(103, 54, 208);
+}
+
