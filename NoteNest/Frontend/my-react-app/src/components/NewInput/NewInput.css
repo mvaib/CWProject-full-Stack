@@ -1,0 +1,13 @@
+.endcomp-input-container .endcomp-input{
+
+    width: 100%;
+    height: auto; /* You can set the height to 'auto' for textarea to grow with content */
+    min-height: 100vh;
+    border: none;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    resize: none;  /* Optional: Prevents the user from resizing the textarea */
+    outline: none;
+}

@@ -1,0 +1,41 @@
+
+.middlecomp-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    min-height: 100vh; /* Ensure this is the desired effect. */
+    width: 27%;
+    background-color: #212121;
+    position: relative;
+    overflow-y: auto; /* Ensure scrolling can occur. */
+    z-index: 2;
+    transition: transform 0.5s ease-in-out; /* Corrected property */
+    left: 0;
+}
+
+.middlecomp-header{
+    /* border: 2px solid red; */
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    z-index: 3;
+    height: 70px;
+}
+.sidebar{
+    cursor: pointer;
+
+}
+.drawer{
+    position: relative;
+    background-color: #373636;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dustbin{
+    cursor: pointer;
+}
