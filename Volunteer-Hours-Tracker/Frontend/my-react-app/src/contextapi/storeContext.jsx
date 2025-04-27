@@ -27,7 +27,7 @@ const StoreProvider = ({children}) => {
                 })
             })
             const res = await response.json()
-            setData(res.data)
+            setData(res?.data)
         } catch (error) {
             console.error(error.message)
         }

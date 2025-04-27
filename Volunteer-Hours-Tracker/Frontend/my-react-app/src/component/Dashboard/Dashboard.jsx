@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container">
         <div className="todays-hours-container">
-            {data.map((item, index) => (
+            { data && data.map((item, index) => (
                 <div key={index} className="todays-hours">
                     <p>Date : {item.date.split("T")[0]}</p>
                     <p>Hours : {item.hours}</p>
