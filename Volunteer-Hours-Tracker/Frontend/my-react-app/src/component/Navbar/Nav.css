@@ -1,0 +1,89 @@
+.Header{
+    /* border: 2px solid red; */
+    width: 100%;
+    color: silver;
+    background-color: rgb(35, 35, 35);
+    position: fixed;
+    z-index: 2;
+
+}
+.nav{
+    /* border: 1px solid blue; */
+    background-color: rgb(35, 35, 35);
+    max-width: 160rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    overflow:hidden;
+}
+.title{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 20rem;
+    text-transform: capitalize;
+}
+.nav .profile ul li div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile-logo{
+    margin-right:60px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+    padding-left: 12rem;
+    padding-right: .5rem;
+    transition: .3s ease-in-out;
+    
+    
+}
+.time{
+    /* border: 2px solid blue; */
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+.details{
+    position: absolute;
+    right: 0px;
+    transition: .3s ease-in-out;
+    padding: 0px 30px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    opacity: 1;
+}
+.details button{
+    background-color: rgb(35, 35, 35);
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: silver;
+    padding: 10px 20px;
+}
+.nav .profile ul li .profile-logo .dropdown{
+    /* border: 2px solid red; */
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 4px;
+    right: 70px;
+    background-color: #1f1a1a;
+    min-width: 160px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -1;
+    opacity: 1;
+    transition: .3s ease-in-out;
+    /* display: none; */
+}
+
+

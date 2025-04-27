@@ -1,0 +1,90 @@
+.form-container {
+    /* border: 2px solid red; */
+    max-width: 90%; /* Change to max-width for responsiveness */
+    width: 400px; /* Keep this for larger screens */
+    height: 100vh; /* May keep this, but consider setting a max-height */
+    background-color: rgb(23, 23, 23);
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: -1000px; /* Consider using more manageable values like `right: -20px` */
+    transition: .3s ease-in-out;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-container-header{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    color: silver;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: rgb(80, 80, 80);
+}
+.form{
+    /* border: 2px solid red; */
+    padding: 20px 0px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+.form form{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+.form form .form-body{
+    display: flex;
+    flex-direction: column;
+}
+.form form .form-body .form-body-container{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.form form .form-body input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    /* color: white; */
+}
+.form-footer{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 10px 20px;
+}
+.form-footer button{
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(80, 80, 80);
+    cursor: pointer;
+}
+.form-footer button:hover{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%; /* Reduce width on smaller screens */
+    }
+
+    .close {
+        right: 10px; /* Adjust close button positioning */
+    }
+}
