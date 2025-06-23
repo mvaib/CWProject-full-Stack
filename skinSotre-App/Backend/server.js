@@ -5,6 +5,7 @@ import productRouter from "./routes/product.route.js"
 import userRouter from "./routes/users.route.js"
 import "dotenv/config"
 import cartRouter from "./routes/cart.route.js"
+import router from "./routes/chat.route.js"
 // app config
 const app = express()
 const PORT = 8080
@@ -23,6 +24,7 @@ app.use("/api/product", productRouter)
 app.use("/images",express.static("uploads"))
 app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
+app.use("/api", router)
 
 app.get("/",(req,res)=>{
     res.send("API Working")

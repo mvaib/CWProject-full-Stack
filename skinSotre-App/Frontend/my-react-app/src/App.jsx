@@ -8,6 +8,8 @@ import LoginPopup from "./components/LoginPopup/LoginPopup"
 import { useState } from "react"
 import Navbar from "./components/Navbar/Navbar"
 import Drawer from "./components/Drawer/Drawer"
+import Chatbot from "./components/Chatbot/Chatbot"
+
 const App = ()=>{
   const [showLogin, setShowLogin] = useState(false)
   const [showDrawer, setShowDrawer] = useState(false)
@@ -24,6 +26,7 @@ const App = ()=>{
           <Route path="/placeorder" element={<Placeorder/>}/>
         </Routes>
       </div>
+      <Chatbot />
     </>
   )
 }
